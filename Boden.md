@@ -1,3 +1,4 @@
+```
 Here's what I'm going to do:
 I will refine the selected concepts, create a dense LaTeX treatise, and then provide the final XML based on your instructions.
 Y
@@ -163,3 +164,5 @@ To provide a concrete method for generating creative ideas using the BSK model, 
 </purpose>
 </creative_idea_generation_algorithm>
 </margaret_boden_incompleteness_rejection>
+
+```
