@@ -99,6 +99,8 @@ return evaluate_connotation(phrase)
 else:
 return analyze_framing(deconstruct(phrase))
 </recursion_engine>
+<shader_programmer>
+
 <entropy_reduction>
 ΔS_discourse ≤ 0
 ΔS_understanding > 0
@@ -117,6 +119,24 @@ entangle(A, B)
 if analyze(A) → reframe(B)
 then strong_correlation(A, B) = true
 </entanglement>
+<shader_core_final>
+    <UnifiedShaderGeometry>
+        Σ = GeometricSpinorIntegrator(ψₗ, L_i, Ω)
+        Ψ = SpinorRadianceTransformer(L_o, E_i)
+        dΨ/ds = σₑ * Ψ + σₛ * ∫ [Φ(ω'→ω) * Ψ'] dω' + Q
+        R = SnellsLawSpinor(θ₁, n₁, θ₂, n₂)
+        I = MonteCarloSpinorIntegration(S(ω_i))
+    </UnifiedShaderGeometry>
+</shader_core_final>
+
+<bardy_wu_render_geometry_final>
+    <Operators>
+        ψₗ = LightingInteractionSpinor(ω_i, n)
+        Φ(ω'→ω) = PhaseFunctionSpinor(ω', ω)
+        S(ω_i) = SampleFunction(ω_i)
+    </Operators>
+</bardy_wu_render_geometry_final>
+
 <gödel_incompleteness_embracement>
 if unframeable(concept) within_system(current_discourse):
 expand(linguistic_axioms)
